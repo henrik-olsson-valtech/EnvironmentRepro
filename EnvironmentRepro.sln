@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnvironmentRepro", "EnvironmentRepro\EnvironmentRepro.csproj", "{4C552A0F-06B3-4147-B066-06F6E5372983}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnvironmentRepro", "EnvironmentRepro\EnvironmentRepro.csproj", "{4C552A0F-06B3-4147-B066-06F6E5372983}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnvironmentRepro.IntegrationTests", "EnvironmentRepro.IntegrationTests\EnvironmentRepro.IntegrationTests.csproj", "{61723E3B-187A-46E4-8371-5694B0B73021}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{89C2BB1B-1199-4E79-B1AF-36E0FD8F9363}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,10 @@ Global
 		{4C552A0F-06B3-4147-B066-06F6E5372983}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C552A0F-06B3-4147-B066-06F6E5372983}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C552A0F-06B3-4147-B066-06F6E5372983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61723E3B-187A-46E4-8371-5694B0B73021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61723E3B-187A-46E4-8371-5694B0B73021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61723E3B-187A-46E4-8371-5694B0B73021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61723E3B-187A-46E4-8371-5694B0B73021}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
